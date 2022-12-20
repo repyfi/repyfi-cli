@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug repeat",
+            "program": "${workspaceFolder:repeat}/.build/debug/repeat",
+            "args": [],
+            "cwd": "${workspaceFolder:repeat}",
+            "preLaunchTask": "swift: Build Debug repeat"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release repeat",
+            "program": "${workspaceFolder:repeat}/.build/release/repeat",
+            "args": [],
+            "cwd": "${workspaceFolder:repeat}",
+            "preLaunchTask": "swift: Build Release repeat"
+        }
+    ]
+}
