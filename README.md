@@ -1,3 +1,16 @@
+```
+% repeat Hey
+Hey
+Hey
+```
+
+```
+% repeat "Hello, world\!" --count 3 --include-counter
+1: Hello, world!
+2: Hello, world!
+3: Hello, world!
+```
+
 # Repeat
 
 Repeat is a CLI application for text repeating.
