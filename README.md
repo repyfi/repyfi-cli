@@ -1,6 +1,8 @@
 # Repeat
 
-A description of this package.
+Repeat is a cli application for text repeating.
+
+Repeat is based on the [Swift Argument Parser Example](https://github.com/apple/swift-argument-parser/blob/doc-generation/Examples/repeat/Repeat.swift).
 
 ```
 % repeat --help
