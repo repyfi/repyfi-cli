@@ -1,16 +1,13 @@
-![image](https://user-images.githubusercontent.com/72662383/209578432-1e9275e9-48af-4567-bd6b-579335f1c903.png)
-
+```
+% repeat "Repeat this text three times with a counter" --count 3 --include-counter
+1: Repeat this text three times
+2: Repeat this text three times
+3: Repeat this text three times
+```
 
 # Repeat
 
-```
-% repeat "Hello, world\!" --count 3 --include-counter
-1: Hello, world!
-2: Hello, world!
-3: Hello, world!
-```
-
-Repeat is a command-line tool for text repeating. Repeat is based on the [Swift Argument Parser Example](https://github.com/apple/swift-argument-parser/blob/doc-generation/Examples/repeat/Repeat.swift).
+Repeat is a command-line tool for text repeating. Repeat is based on the [Repeat Example](https://github.com/apple/swift-argument-parser/blob/doc-generation/Examples/repeat/Repeat.swift) from [Swift Argument Parser](https://github.com/apple/swift-argument-parser) library.
 
 ```
 % repeat --help
