@@ -1,8 +1,7 @@
-```
-% repeat Hey
-Hey
-Hey
-```
+![image](https://user-images.githubusercontent.com/72662383/209578432-1e9275e9-48af-4567-bd6b-579335f1c903.png)
+
+
+# Repeat
 
 ```
 % repeat "Hello, world\!" --count 3 --include-counter
@@ -10,8 +9,6 @@ Hey
 2: Hello, world!
 3: Hello, world!
 ```
-
-# Repeat
 
 Repeat is a command-line tool for text repeating. Repeat is based on the [Swift Argument Parser Example](https://github.com/apple/swift-argument-parser/blob/doc-generation/Examples/repeat/Repeat.swift).
 
