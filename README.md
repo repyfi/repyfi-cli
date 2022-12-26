@@ -7,7 +7,7 @@
 
 # Repeat
 
-Repeat is a command-line tool for text repeating. Repeat is based on the [Repeat Example](https://github.com/apple/swift-argument-parser/blob/doc-generation/Examples/repeat/Repeat.swift) from [Swift Argument Parser](https://github.com/apple/swift-argument-parser) library.
+Repeat is a command-line tool for text repeating. Based on the [Repeat Example](https://github.com/apple/swift-argument-parser/blob/doc-generation/Examples/repeat/Repeat.swift) from [Swift Argument Parser](https://github.com/apple/swift-argument-parser) library.
 
 ```
 % repeat --help
