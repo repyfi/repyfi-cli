@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Repeat CLI</h1>
+  <h1><code>[ <i>Repeat CLI</i> ]</code></h1>
   <p>Command-line text repeater</p>
   <img src="https://user-images.githubusercontent.com/72662383/209880649-900ae5b7-4cfb-4325-aacf-9a9706526b55.png">
 </div>
