@@ -1,16 +1,15 @@
+# Repeat CLI
+
+📃 Command-line text repeater.
+
 ```zsh
-% repeat \
-  'Repeat this text three times with a counter' \
+% repeat 'Repeat this text three times with a counter' \
    --count 3 \
    --include-counter
 1: Repeat this text three times
 2: Repeat this text three times
 3: Repeat this text three times
 ```
-
-# Repeat CLI
-
-📃 Command-line text repeater.
 
 <!--
 <div align="center">
