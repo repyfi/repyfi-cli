@@ -3,8 +3,7 @@
 📃 Command-line text repeater.
 
 ```zsh
-% repeat-cli \
-  'This text will be repeated three times with a counter 🦄' \
+% repeat-cli 'This text will be repeated three times with a counter 🦄' \
   --count 3 \
   --include-counter
 1: This text will be repeated three times with a counter 🦄
@@ -28,4 +27,4 @@ RepeatCLI is a command-line tool for text repeating. Based on the [Repeat Exampl
 
 ## License
 
-Licensed under the [MIT license](LICENSE).
+Licensed under the [MIT License](LICENSE).
