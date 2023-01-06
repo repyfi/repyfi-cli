@@ -10,7 +10,7 @@ struct RepeatCLI: ParsableCommand {
     abstract: "Command-line text repeater.",
     version: """
     Repeat CLI version 0.1.0
-    GitHub: https://github.com/jaroshevskii/repeat-cli
+    Home Page: https://github.com/jaroshevskii/repeat-cli
     """
   )
 
