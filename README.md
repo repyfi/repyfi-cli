@@ -2,6 +2,7 @@
 
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Frepeat-cli%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/jaroshevskii/repeat-cli)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Frepeat-cli%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/jaroshevskii/repeat-cli)
+![Compatibility Windows](https://img.shields.io/badge/Compatibility-Windows-blue)
 
 RepeatCLI is a simple [command-line](https://en.wikipedia.org/wiki/Command-line_interface) application for text repeating, based on the [Example Repeat](https://github.com/apple/swift-argument-parser/blob/doc-generation/Examples/repeat/Repeat.swift) from [Swift Argument Parser](https://github.com/apple/swift-argument-parser) library.
 
@@ -92,15 +93,21 @@ I promise to always use UTF-8 🐶
 To include a repetition counter, use `--include-counter` option.
 
 ```zsh
-repeat-cli 'Yare yare daze...' --include-counter
+repeat-cli 'Yare yare daze...' --count 3 --include-counter
 ```
+> **Note:** You can also use shorter entry.
+> 
+> ```zsh
+> repeat-cli 'Yare yare daze...' -c 3 -i
+> ```
 
 **Result:**
 
 ```zsh
-% repeat-cli 'Yare yare daze...' --include-counter
+% repeat-cli 'Yare yare daze...' --count 3 --include-counter
 1: Yare yare daze...
 2: Yare yare daze...
+3: Yare yare daze...
 ```
 
 ### Multiline
