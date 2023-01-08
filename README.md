@@ -17,7 +17,7 @@ RepeatCLI is a simple [command-line](https://en.wikipedia.org/wiki/Command-line_
 
 ## Usage
 
-RepeatCLI is a CLI application, this means that the application must be executed from the [Terminal](https://en.wikipedia.org/wiki/Terminal_emulator).
+RepeatCLI is a CLI application, this means that the **application must be executed from the [Terminal](https://en.wikipedia.org/wiki/Terminal_emulator)**.
 
 ### Basic repetition
 
