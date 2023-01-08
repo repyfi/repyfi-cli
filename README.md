@@ -81,9 +81,7 @@ I promise to always use UTF-8 🐶
 I promise to always use UTF-8 🐶
 ```
 
-> **Note:** `<count>` must be greater than zero.
->
-> Otherwise you will get this error:
+> **Note:** `<count>` must be greater than zero. Otherwise you will get this error:
 >
 > ```zsh
 > Error: 'count' must be greater than zero.
