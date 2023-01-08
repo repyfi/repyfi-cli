@@ -60,7 +60,7 @@ Be faster 🐢
 
 By default, the text will be repeated only twice.
 
-To set a custom number of repetitions, use `--count <count>` argumet. Where `<count>` is a number.
+To set a custom number of repetitions, use `--count <count>` option. Where `<count>` is a number.
 
 ```zsh
 repeat-cli 'I promise to always use UTF-8 🐶' --count 5
@@ -93,7 +93,7 @@ I promise to always use UTF-8 🐶
 
 ### Repetition counter
 
-To include a repetition counter, use `--include-counter` argument.
+To include a repetition counter, use `--include-counter` option.
 
 ```zsh
 repeat-cli 'Yare yare daze...' --include-counter
