@@ -150,7 +150,7 @@ Dum, dum, dum
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Interested in contributing to Slate? We'd love your help. Slate is an open source project, built one contribution at a time by users like you.
 
 ## License
 
