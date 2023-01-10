@@ -1,5 +1,5 @@
 //
-// Repeat CLI
+// RepeatCLI
 //
 
 import ArgumentParser
@@ -7,10 +7,10 @@ import ArgumentParser
 @main
 struct RepeatCLI: ParsableCommand {
   static var configuration = CommandConfiguration(
-    abstract: "Command-line text repeater.",
+    abstract: "📃 Simple cross-platform command-line tool for text repeating.",
     version: """
     Repeat CLI version 0.3.0
-    Homepage: https://github.com/jaroshevskii/repeat-cli
+    Homepage: https://jaroshevskii.github.io/repeat-cli/
     """
   )
 
