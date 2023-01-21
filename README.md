@@ -134,7 +134,7 @@ Dum, dum, dum
 
 ### Arguments order does not matter
 
-The program uses the following order of arguments:
+RepeatCLI uses the following order of arguments:
 
 ```
 <text> [--count <count>] [--include-counter]
