@@ -15,6 +15,10 @@ RepeatCLI is a simple [command-line](https://en.wikipedia.org/wiki/Command-line_
 3: This text will be repeated three times with a counter 🦄
 ```
 
+## Installation
+
+RepeatCLI is not yet available in any package manager and there are no compiled versions 😮‍💨. So you have to compile manually.
+
 ## Usage
 
 RepeatCLI is a CLI application, this means that the **application must be executed from the [Terminal](https://en.wikipedia.org/wiki/Terminal_emulator)**.
@@ -147,10 +151,6 @@ The following commands will work the same way:
 - `repeat-cli --count 1 --include-counter 'Hello everyone!'`
 - `repeat-cli -с 1 'Hello everyone!' --include-counter `
 - `repeat-cli -i --count 1 'Hello everyone!'`
-
-## Installation
-
-???
 
 ## Contributing
 
