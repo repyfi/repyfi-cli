@@ -9,7 +9,7 @@ struct RepeatCLI: ParsableCommand {
   static var configuration = CommandConfiguration(
     abstract: "📃 Simple cross-platform command-line tool for text repeating.",
     version: """
-    Repeat CLI version 0.3.0
+    RepeatCLI 0.3.0
     Homepage: https://jaroshevskii.github.io/repeat-cli/
     """
   )
