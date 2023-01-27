@@ -7,11 +7,11 @@ import ArgumentParser
 @main
 struct RepeatCLI: ParsableCommand {
   static var configuration = CommandConfiguration(
-    abstract: "📃 Simple cross-platform command-line tool for text repeating.",
+    abstract: "📃 Simple command-line tool for text repeating.",
     version: """
-    RepeatCLI 0.3.0
-    Homepage: https://jaroshevskii.github.io/repeat-cli/
-    """
+      RepeatCLI 0.4.0-alpha
+      Homepage: https://jaroshevskii.github.io/repeat-cli/
+      """
   )
 
   /// Text to repeat.
@@ -25,6 +25,10 @@ struct RepeatCLI: ParsableCommand {
     help: "Number of 'text' repetitions.")
   var repeatCount: Int = 2
 
+  /// Text to insert between `text`.
+  @Option(name: .shortAndLong, help: "Text to insert between <text>. The default is a newline.")
+  var separator: String = "\n"
+
   /// Include a counter with each repetition.
   @Flag(name: .shortAndLong, help: "Include a counter withc earh repetition.")
   var includeCounter = false
@@ -37,12 +41,19 @@ struct RepeatCLI: ParsableCommand {
   }
 
   func run() {
+    var repeatedText = ""
+
     for i in 1...repeatCount {
       if includeCounter {
-        print("\(i): \(text)")
+        repeatedText += "\(i): \(text)\(separator)"
       } else {
-        print(text)
+        repeatedText += "\(text)\(separator)"
       }
     }
+
+    // Remove the vest separator at the end of `repeatedText`.
+    repeatedText.removeLast(separator.count)
+
+    print(repeatedText)
   }
 }
