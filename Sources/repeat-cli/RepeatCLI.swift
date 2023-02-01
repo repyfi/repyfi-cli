@@ -11,10 +11,13 @@ struct RepeatCLI: ParsableCommand {
     abstract: "📃 Simple command-line tool for text repeating.",
     discussion: """
       LINKS:
-        Homepage: https://jaroshevskii.github.io/repeat-cli/
-        GitHub:   https://jaroshevskii/repeat-cli
+        Website: https://jaroshevskii.github.io/repeat-cli/
+        GitHub:  https://jaroshevskii/repeat-cli
       """,
-    version: "RepeatCLI 0.4.0-alpha"
+    version: """
+      RepeatCLI version 0.4.0
+      Release: https://github.com/jaroshevskii/repeat-cli/releases/tag/v0.4.0
+      """
   )
 
   /// Default counter style.
@@ -48,7 +51,9 @@ struct RepeatCLI: ParsableCommand {
       throw ValidationError("'count' must be greater than zero.")
     }
 
-    includeCounter = counterStyle != Self.defaultCounterStyle
+    if counterStyle != RepeatCLI.defaultCounterStyle {
+      includeCounter = true
+    }
   }
 
   func run() {
