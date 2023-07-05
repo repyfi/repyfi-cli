@@ -6,14 +6,18 @@
 
 RepeatCLI is a simple [command-line](https://en.wikipedia.org/wiki/Command-line_interface) application for text repeating, inspired on the [Example Repeat](https://github.com/apple/swift-argument-parser/blob/doc-generation/Examples/repeat/Repeat.swift) from [Swift Argument Parser](https://github.com/apple/swift-argument-parser) library.
 
-```zsh
-% repeat-cli 'This text will be repeated three times with a counter 🦄' \
-  --count 3 \
-  --include-counter
-1: This text will be repeated three times with a counter 🦄
-2: This text will be repeated three times with a counter 🦄
-3: This text will be repeated three times with a counter 🦄
-```
+![image](https://github.com/jaroshevskii/repify-cli/assets/72662383/6c6acc3c-ccd6-43ee-a287-68f65e1812b4)
+
+<!--
+  ```zsh
+  % repeat-cli 'This text will be repeated three times with a counter 🦄' \
+    --count 3 \
+    --include-counter
+  1: This text will be repeated three times with a counter 🦄
+  2: This text will be repeated three times with a counter 🦄
+  3: This text will be repeated three times with a counter 🦄
+  ```
+-->
 
 ## Installation
 
