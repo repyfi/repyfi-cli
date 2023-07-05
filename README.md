@@ -6,7 +6,7 @@
 
 RepeatCLI is a simple [command-line](https://en.wikipedia.org/wiki/Command-line_interface) application for text repeating, inspired on the [Example Repeat](https://github.com/apple/swift-argument-parser/blob/doc-generation/Examples/repeat/Repeat.swift) from [Swift Argument Parser](https://github.com/apple/swift-argument-parser) library.
 
-![image](https://github.com/jaroshevskii/repify-cli/assets/72662383/6c6acc3c-ccd6-43ee-a287-68f65e1812b4)
+![image](https://github.com/jaroshevskii/repify-cli/assets/72662383/1429dbe5-1b6a-453e-8ac9-5332b46d462d)
 
 <!--
   ```zsh
