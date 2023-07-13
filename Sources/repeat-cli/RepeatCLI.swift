@@ -51,7 +51,7 @@ struct RepeatCLI: ParsableCommand {
       throw ValidationError("'count' must be greater than zero.")
     }
 
-    if counterStyle != RepeatCLI.defaultCounterStyle {
+    if counterStyle != Self.defaultCounterStyle {
       includeCounter = true
     }
   }
