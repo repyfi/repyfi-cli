@@ -1,19 +1,21 @@
-<h1 align="center">Repify CLI</h1>
-<p align="center">
-  A lightweight and user-friendly command-line application designed for text repeating.
-</p>
-<p align="center">
-  <img src="https://github.com/jaroshevskii/repify-cli/assets/72662383/1429dbe5-1b6a-453e-8ac9-5332b46d462d">
-</p>
-<p align="center">
-  <a href="https://swiftpackageindex.com/jaroshevskii/repeat-cli">
-    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Frepify-cli%2Fbadge%3Ftype%3Dswift-versions" alt="Swift Compatibility">
-  </a>
-  <a href="https://swiftpackageindex.com/jaroshevskii/repeat-cli">
-    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Frepify-cli%2Fbadge%3Ftype%3Dplatforms" alt="Platform Compatibility">
-  </a>
-  <img src="https://img.shields.io/badge/Platform%20Compatibility-Windows-blue" alt="Platform Compatibility Windows">
-</p>
+<div align="center">
+  <h1>Repify CLI</h1>
+  <p>
+    A lightweight and user-friendly command-line application designed for text repeating.
+  </p>
+  <p>
+    <img src="https://github.com/jaroshevskii/repify-cli/assets/72662383/1429dbe5-1b6a-453e-8ac9-5332b46d462d">
+  </p>
+  <p>
+    <a href="https://swiftpackageindex.com/jaroshevskii/repeat-cli">
+      <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Frepify-cli%2Fbadge%3Ftype%3Dswift-versions" alt="Swift Compatibility">
+    </a>
+    <a href="https://swiftpackageindex.com/jaroshevskii/repeat-cli">
+      <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Frepify-cli%2Fbadge%3Ftype%3Dplatforms" alt="Platform Compatibility">
+    </a>
+    <img src="https://img.shields.io/badge/Platform%20Compatibility-Windows-blue" alt="Platform Compatibility Windows">
+  </p>
+</div>
 
 <!--
 [![Swift Compatibility](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Frepeat-cli%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/jaroshevskii/repeat-cli)
