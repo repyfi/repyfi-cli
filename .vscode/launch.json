@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug RepifyCLI",
+      "program": "${workspaceFolder:repify-cli}/.build/debug/RepifyCLI",
+      "args": [],
+      "cwd": "${workspaceFolder:repify-cli}",
+      "preLaunchTask": "swift: Build Debug RepifyCLI"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release RepifyCLI",
+      "program": "${workspaceFolder:repify-cli}/.build/release/RepifyCLI",
+      "args": [],
+      "cwd": "${workspaceFolder:repify-cli}",
+      "preLaunchTask": "swift: Build Release RepifyCLI"
+    }
+  ]
+}
