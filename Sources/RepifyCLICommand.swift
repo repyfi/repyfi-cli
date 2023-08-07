@@ -1,12 +1,12 @@
 //
-// RepifyCommand.swift
+// RepifyCLICommand.swift
 // RepifyCLI
 //
 
 import ArgumentParser
 
 @main
-struct RepifyCommand: ParsableCommand {
+struct RepifyCLICommand: ParsableCommand {
 
   @Argument(help: "The text to be repeated.")
   var text: String
