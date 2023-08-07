@@ -25,28 +25,40 @@ struct Repify: ParsableCommand {
   @Option(name: .shortAndLong, help: "The number of text repetitions.")
   var count = 2
 
-  /// The delay (in seconds) between repetitions.
-  @Option(name: .shortAndLong, help: "The delay (in seconds) between repetitions.")
-  var delay: Double?
+  /// Include repetition numbering.
+  @Flag(name: .shortAndLong, help: "Include repetition numbering.")
+  var includeNumbering: Bool = false
+
+  /// The repetition format.
+  @Option(name: .shortAndLong, help: "The repetition format. Use \\(text) and \\(number) as placeholders.")
+  var format: String?
 
   /// Separator between repetitions.
   @Option(name: .shortAndLong, help: "The separator between repetitions.")
   var separator = "\n"
 
-  /// Include repetition numbering.
-  @Flag(name: .shortAndLong, help: "Include repetition numbering.")
-  var includeNumbering: Bool = false
+  /// The delay (in seconds) between repetitions.
+  @Option(name: .shortAndLong, help: "The delay (in seconds) between repetitions.")
+  var delay: Double?
 
   func run() {
     for i in 1...count {
-      let formatedText = includeNumbering ? "\(i): \(text)" : text
+      var formattedText: String
+      if let format {
+        formattedText = format
+          .replacingOccurrences(of: "\\(text)", with: text)
+          .replacingOccurrences(of: "\\(number)", with: "\(i)")
+      } else {
+        formattedText = includeNumbering ? "\(i): \(text)" : text
+      }
+
       if i < count {
-        print(formatedText, terminator: separator)
+        print(formattedText, terminator: separator)
         if let delay {
           Thread.sleep(forTimeInterval: delay)
         }
       } else {
-        print(formatedText)
+        print(formattedText)
       }
     }
   }
