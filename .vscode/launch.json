@@ -6,11 +6,11 @@
       "sourceLanguages": [
         "swift"
       ],
-      "name": "Debug RepifyCLI",
-      "program": "${workspaceFolder:repify-cli}/.build/debug/RepifyCLI",
+      "name": "Debug repify",
+      "program": "${workspaceFolder:repify-cli}/.build/debug/repify",
       "args": [],
       "cwd": "${workspaceFolder:repify-cli}",
-      "preLaunchTask": "swift: Build Debug RepifyCLI"
+      "preLaunchTask": "swift: Build Debug repify"
     },
     {
       "type": "lldb",
@@ -18,11 +18,11 @@
       "sourceLanguages": [
         "swift"
       ],
-      "name": "Release RepifyCLI",
-      "program": "${workspaceFolder:repify-cli}/.build/release/RepifyCLI",
+      "name": "Release repify",
+      "program": "${workspaceFolder:repify-cli}/.build/release/repify",
       "args": [],
       "cwd": "${workspaceFolder:repify-cli}",
-      "preLaunchTask": "swift: Build Release RepifyCLI"
+      "preLaunchTask": "swift: Build Release repify"
     }
   ]
 }
