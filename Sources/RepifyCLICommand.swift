@@ -7,7 +7,6 @@ import ArgumentParser
 
 @main
 struct RepifyCLICommand: ParsableCommand {
-
   @Argument(help: "The text to be repeated.")
   var text: String
 
