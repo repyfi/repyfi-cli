@@ -23,11 +23,15 @@ struct Repify: ParsableCommand {
 
   /// The number of text repetitions. Default is 2.
   @Option(name: .shortAndLong, help: "The number of text repetitions.")
-  var count: Int = 2
+  var count = 2
 
   /// The delay (in seconds) between repetitions.
   @Option(name: .shortAndLong, help: "The delay (in seconds) between repetitions.")
   var delay: Double?
+
+  /// Separator between repetitions.
+  @Option(name: .shortAndLong, help: "The separator between repetitions.")
+  var separator = "\n"
 
   /// Include repetition numbering.
   @Flag(name: .shortAndLong, help: "Include repetition numbering.")
@@ -35,14 +39,14 @@ struct Repify: ParsableCommand {
 
   func run() {
     for i in 1...count {
-      if includeNumbering {
-        print("\(i): \(text)")
+      let formatedText = includeNumbering ? "\(i): \(text)" : text
+      if i < count {
+        print(formatedText, terminator: separator)
+        if let delay {
+          Thread.sleep(forTimeInterval: delay)
+        }
       } else {
-        print(text)
-      }
-
-      if let delay = delay, i < count {
-        Thread.sleep(forTimeInterval: delay)
+        print(formatedText)
       }
     }
   }
