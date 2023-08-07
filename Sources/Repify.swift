@@ -4,7 +4,9 @@ import Foundation
 /// A lightweight and user-friendly tool for effortlessly repeating and customizing text.
 @main
 struct Repify: ParsableCommand {
-  static var configuration = CommandConfiguration(
+  static let version = "1.0.0"
+
+  static let configuration = CommandConfiguration(
     abstract: "A lightweight and user-friendly tool for effortlessly repeating and customizing text.",
     discussion: """
     With Repify CLI, you can unleash your creativity by easily creating endless variations of text with just a few simple commands.
@@ -14,6 +16,10 @@ struct Repify: ParsableCommand {
       Discussions: https://github.com/jaroshevskii/repify-cli/discussions
       Issues:      https://github.com/jaroshevskii/repify-cli/issues
       Repository:  https://github.com/jaroshevskii/repify-cli
+    """,
+    version: """
+    Repify CLI version \(version)
+    Release: https://github.com/jaroshevskii/repify-cli/releases/tag/v\(version)
     """
   )
 
