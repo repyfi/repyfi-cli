@@ -1,11 +1,14 @@
+//
+// Repify.swift
+// RepifyCLI
+//
+
 import ArgumentParser
 import Foundation
 
 /// A lightweight and user-friendly tool for effortlessly repeating and customizing text.
 @main
 struct Repify: ParsableCommand {
-  static let version = "1.0.0"
-
   static let configuration = CommandConfiguration(
     abstract: "A lightweight and user-friendly tool for effortlessly repeating and customizing text.",
     discussion: """
