@@ -1,4 +1,6 @@
 run = "swift run repify --help"
 
+compile = "swift build || swift package clean && clear"
+
 [nix]
 channel = "stable-22_11"
