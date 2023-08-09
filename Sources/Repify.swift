@@ -53,7 +53,7 @@ struct Repify: ParsableCommand {
   func run() {
     for i in 1...count {
       var formattedText: String
-      if let format {
+      if let format = format {
         formattedText = format
           .replacingOccurrences(of: "\\(text)", with: text)
           .replacingOccurrences(of: "\\(number)", with: "\(i)")
@@ -63,7 +63,7 @@ struct Repify: ParsableCommand {
 
       if i < count {
         print(formattedText, terminator: separator)
-        if let delay {
+        if let delay = delay {
           Thread.sleep(forTimeInterval: delay)
         }
       } else {

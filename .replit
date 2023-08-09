@@ -1,0 +1,4 @@
+run = "swift run repify --help"
+
+[nix]
+channel = "stable-22_11"
