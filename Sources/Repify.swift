@@ -30,7 +30,7 @@ struct Repify: ParsableCommand {
   @Argument(help: "The text to be repeated.")
   var text: String
 
-  /// The number of text repetitions. Default is 2.
+  /// The number of text repetitions.
   @Option(name: .shortAndLong, help: "The number of text repetitions.")
   var count = 2
 
