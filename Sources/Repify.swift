@@ -15,7 +15,7 @@ struct Repify: ParsableCommand {
     With Repify CLI, you can unleash your creativity by easily creating endless variations of text with just a few simple commands.
     
     LINKS:
-      Website:     https://jaroshevskii.github.io/repify-cli
+      Website:     https://jaroshevskii.github.io/repify-cli/
       Discussions: https://github.com/jaroshevskii/repify-cli/discussions
       Issues:      https://github.com/jaroshevskii/repify-cli/issues
       Repository:  https://github.com/jaroshevskii/repify-cli
