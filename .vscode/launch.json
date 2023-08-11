@@ -6,30 +6,6 @@
       "sourceLanguages": [
         "swift"
       ],
-      "name": "Debug RepyfiCLI",
-      "program": "${workspaceFolder:repyfi-cli}/.build/debug/RepyfiCLI",
-      "args": [],
-      "cwd": "${workspaceFolder:repyfi-cli}",
-      "preLaunchTask": "swift: Build Debug RepyfiCLI"
-    },
-    {
-      "type": "lldb",
-      "request": "launch",
-      "sourceLanguages": [
-        "swift"
-      ],
-      "name": "Release RepyfiCLI",
-      "program": "${workspaceFolder:repyfi-cli}/.build/release/RepyfiCLI",
-      "args": [],
-      "cwd": "${workspaceFolder:repyfi-cli}",
-      "preLaunchTask": "swift: Build Release RepyfiCLI"
-    },
-    {
-      "type": "lldb",
-      "request": "launch",
-      "sourceLanguages": [
-        "swift"
-      ],
       "name": "Debug repyfi",
       "program": "${workspaceFolder:repyfi-cli}/.build/debug/repyfi",
       "args": [],
