@@ -1,4 +1,4 @@
-run = "swift run repify --help"
+run = "swift run repyfi --help"
 
 compile = "swift build || swift package clean && clear"
 

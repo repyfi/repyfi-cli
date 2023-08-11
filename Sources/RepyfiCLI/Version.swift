@@ -1,8 +1,8 @@
 //
 // Version.swift
-// RepifyCLI
+// RepyfiCLI
 //
 
-extension Repify {
+extension Repyfi {
   static let version = "1.0.0-rebuild"
 }

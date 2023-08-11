@@ -6,11 +6,11 @@
       "sourceLanguages": [
         "swift"
       ],
-      "name": "Debug repify",
-      "program": "${workspaceFolder:repify-cli}/.build/debug/repify",
+      "name": "Debug RepyfiCLI",
+      "program": "${workspaceFolder:repyfi-cli}/.build/debug/RepyfiCLI",
       "args": [],
-      "cwd": "${workspaceFolder:repify-cli}",
-      "preLaunchTask": "swift: Build Debug repify"
+      "cwd": "${workspaceFolder:repyfi-cli}",
+      "preLaunchTask": "swift: Build Debug RepyfiCLI"
     },
     {
       "type": "lldb",
@@ -18,11 +18,35 @@
       "sourceLanguages": [
         "swift"
       ],
-      "name": "Release repify",
-      "program": "${workspaceFolder:repify-cli}/.build/release/repify",
+      "name": "Release RepyfiCLI",
+      "program": "${workspaceFolder:repyfi-cli}/.build/release/RepyfiCLI",
       "args": [],
-      "cwd": "${workspaceFolder:repify-cli}",
-      "preLaunchTask": "swift: Build Release repify"
+      "cwd": "${workspaceFolder:repyfi-cli}",
+      "preLaunchTask": "swift: Build Release RepyfiCLI"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug repyfi",
+      "program": "${workspaceFolder:repyfi-cli}/.build/debug/repyfi",
+      "args": [],
+      "cwd": "${workspaceFolder:repyfi-cli}",
+      "preLaunchTask": "swift: Build Debug repyfi"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release repyfi",
+      "program": "${workspaceFolder:repyfi-cli}/.build/release/repyfi",
+      "args": [],
+      "cwd": "${workspaceFolder:repyfi-cli}",
+      "preLaunchTask": "swift: Build Release repyfi"
     }
   ]
 }

@@ -1,6 +1,6 @@
 //
-// Repify.swift
-// RepifyCLI
+// Repyfi.swift
+// RepyfiCLI
 //
 
 import ArgumentParser
@@ -8,21 +8,21 @@ import Foundation
 
 /// A lightweight and user-friendly tool for effortlessly repeating and customizing text.
 @main
-struct Repify: ParsableCommand {
+struct Repyfi: ParsableCommand {
   static let configuration = CommandConfiguration(
     abstract: "A lightweight and user-friendly tool for effortlessly repeating and customizing text.",
     discussion: """
-    With Repify CLI, you can unleash your creativity by easily creating endless variations of text with just a few simple commands.
+    With Repyfi CLI, you can unleash your creativity by easily creating endless variations of text with just a few simple commands.
     
     LINKS:
-      Website:     https://jaroshevskii.github.io/repify-cli/
-      Discussions: https://github.com/jaroshevskii/repify-cli/discussions
-      Issues:      https://github.com/jaroshevskii/repify-cli/issues
-      Repository:  https://github.com/jaroshevskii/repify-cli
+      Website:     https://repyfi.github.io
+      Discussions: https://github.com/repyfi/repyfi-cli/discussions
+      Issues:      https://github.com/repyfi/repyfi-cli/issues
+      Repository:  https://github.com/repyfi/repyfi-cli
     """,
     version: """
-    Repify CLI version \(version)
-    Release: https://github.com/jaroshevskii/repify-cli/releases/tag/v\(version)
+    Repyfi CLI version \(version)
+    Release: https://github.com/repyfi/repyfi-cli/releases/tag/v\(version)
     """
   )
 
