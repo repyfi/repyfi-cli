@@ -126,7 +126,7 @@ Dum-dum-dum-dum, ditty dum-dum-dum
 Dum, dum, dum
 ```
 
-### Arguments order does not matter
+### Arguments order
 
 Rpyfi CLI uses the following order of arguments:
 
